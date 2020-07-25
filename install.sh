@@ -59,7 +59,7 @@ done
 
 [[ -z $iUser ]] && echo -e "Please set your username by using -u <username>" && exit 1
 [[ -z $iPass ]] && echo -e "Please set your password by using -p <password>" && exit 1
-[[ -z $wPort ]] && wPort=2017
+[[ -z $wPort ]] && wPort=2018
 [[ -z $iPort ]] && iPort=9002
 [[ -z $qbver ]] && qbver=4.2.3.lt.1.1.14
 
